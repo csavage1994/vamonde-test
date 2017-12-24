@@ -1,0 +1,38 @@
+.legend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1em;
+}
+
+.legend-item {
+  display: flex;
+  margin: 0.25em 0;
+}
+
+.legend-line {
+  display: inline-block;
+  width: 20px;
+  align-self: center;
+  margin-right: 1em;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 850px) {
+  .legend-line {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border-bottom: unset !important;
+    margin-right: 0.25em;
+  }
+  .legend {
+    flex-direction: unset;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+  }
+  .legend-item {
+    white-space: nowrap;
+    margin-right: 1em;
+  }
+}

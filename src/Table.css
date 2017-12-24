@@ -1,0 +1,38 @@
+.data-table {
+  width: 100%;
+}
+
+th {
+  font-weight: bold;
+  font-size: 1.25em;
+  padding: 0 1em 1em 1em;
+  white-space: nowrap;
+}
+
+th:first-of-type {
+  padding-left: 2em;
+}
+
+th:last-of-type {
+  padding-right: 2em;
+}
+
+tr {
+  text-align: left;
+}
+
+td {
+  padding: 1em 0;
+}
+
+td:first-of-type {
+  padding-left: 1em;
+}
+
+.data {
+  background-color: #464554;
+}
+
+.data:nth-child(even) {
+  background-color: #38394A;
+}
